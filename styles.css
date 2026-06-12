@@ -14,7 +14,7 @@
   --rule:         rgba(27,26,23,0.14);
   --rule-soft:    rgba(27,26,23,0.08);
 
-  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
   --sans:  "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
 
   --pad-x: clamp(1.25rem, 4.5vw, 4rem);
@@ -502,10 +502,10 @@ p{ margin:0; }
 }
 
 /* ─── FAQ ──────────────────────────────────────────────────────── */
-.faq { padding: clamp(4rem, 7vw, 6rem) var(--pad); border-bottom: 1px solid var(--rule); }
-.faq__inner { max-width: var(--max); margin: 0 auto; }
-.faq__title { font-family: var(--ff-serif); font-size: clamp(1.4rem, 2.5vw, 2rem); font-weight: 700; margin-bottom: 2.5rem; color: var(--white); }
+.faq { padding: clamp(4rem, 7vw, 6rem) var(--pad-x); border-bottom: 1px solid var(--rule); }
+.faq__inner { max-width: var(--maxw); margin: 0 auto; }
+.faq__title { font-family: var(--serif); font-size: clamp(1.4rem, 2.5vw, 2rem); font-weight: 500; margin-bottom: 2.5rem; color: var(--ink); }
 .faq__list { display: flex; flex-direction: column; gap: 0; border-top: 1px solid var(--rule); }
 .faq__item { padding: 1.5rem 0; border-bottom: 1px solid var(--rule); }
-.faq__q { font-family: var(--ff-serif); font-size: 1.05rem; font-weight: 700; color: var(--white); margin-bottom: .5rem; }
-.faq__a { font-size: .9rem; line-height: 1.75; color: var(--ash); }
+.faq__q { font-family: var(--serif); font-size: 1.05rem; font-weight: 500; color: var(--ink); margin-bottom: .5rem; }
+.faq__a { font-size: .9rem; line-height: 1.75; color: var(--ink-soft); }
